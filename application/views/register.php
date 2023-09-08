@@ -5,12 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration Form</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        #login{
+            margin-left : 500px;
+        }
+        </style>
 </head>
 <body>
     <div class="container">
         <h2 class="mt-5">Registration Form</h2>
         
-	  	<div id="messages"></div>
+        <div id="divMsg" class="alert alert-success" style="display: none">
+         <span id="msg"></span>
+        </div>
         <form action="<?php echo base_url('Registration/save'); ?>" method="POST" id="submitdata" enctype="multipart/form-data">
             <div class="form-group">
                 <label for="name">Name:</label>
@@ -35,7 +42,7 @@
                     <option value="other">Other</option>
                 </select>
             </div>
-            <button type="submit" id="submit" class="btn btn-primary">Register</button>
+            <button type="submit" id="submit" class="btn btn-primary">Register</button><a href="<?php echo base_url('Login/index'); ?>" id="login">Login</a>
         </form>
     </div>
 
@@ -53,34 +60,12 @@
 			url: '<?php echo site_url('Registration/save'); ?>',
 			data: dataString,
 			dataType:'JSON',
-			success: function(result){
-                if(result.success == true) {
-					$("#messages").html('<div class="alert alert-success alert-dismissible" role="alert">'+
-					  '<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>'+
-					  result.messages+
-					'</div>');
-
-					$("#submitdata")[0].reset();
-					$(".text-danger").remove();
-					$(".form-group").removeClass('has-error').removeClass('has-success');
-
-				}
-				else {
-					$.each(result.messages, function(index, value) {
-						var element = $("#"+index);
-
-						$(element)
-						.closest('.form-group')
-						.removeClass('has-error')
-						.removeClass('has-success')
-						.addClass(value.length > 0 ? 'has-error' : 'has-success')
-						.find('.text-danger').remove();
-
-						$(element).after(value);
-
-					});
-				}
-			}
+			success: function(response){
+                if (response.success) {
+                  alert('User added successfully!');
+                }else {
+                        alert('User has not added.');
+                    }
         });
 	});
 });

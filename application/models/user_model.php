@@ -9,5 +9,10 @@ class User_model extends CI_Model {
     public function save_user($data) {
         return $this->db->insert('users', $data);
     }
+    public function get_user($data) {
+        $this->db->where('id !=', $data);
+        $query = $this->db->get('users');
+        return $query->result_array();
+    }
 }
 ?>

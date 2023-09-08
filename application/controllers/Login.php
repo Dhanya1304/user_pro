@@ -22,17 +22,18 @@ class Login extends CI_Controller
 		if($user){
 			$_SESSION['id']     = $user['id'];
 			$_SESSION['data']   = $user; 
-			$this->session->set_flashdata('response',"Loggedin Successfully");
 			redirect(site_url('Dashboard/index'));
 		}
 	else{
-
-		$this->session->set_flashdata('response',"User doesn't exists");
 		redirect(site_url('Login/index'));
 		}
 		
 		
-}
+	}
+	public function logout() {
+        $this->session->sess_destroy();
+        redirect(site_url('web/index'));
+    }
 
 }
 ?>

@@ -5,7 +5,9 @@ class Registration extends CI_Controller
 	public function __construct() 
 	{
 		parent::__construct();
+        session_start();
         $this->load->model('user_model');
+        $this->load->helper(array('form', 'url'));
 	}
 	public function register()
 	{
@@ -36,15 +38,6 @@ class Registration extends CI_Controller
 
         $result = $this->user_model->save_user($data);
 
-        if ($result) {
-            $result['success'] = true;
-			$result['messages'] = 'Successfully Registered';
-        } else {
-            $result['success'] = false;
-			foreach ($_POST as $key => $value) {
-				$result['messages'][$key] = form_error($key);
-			}
-         }
          echo json_encode($result);
     }
 }

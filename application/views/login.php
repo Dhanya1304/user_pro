@@ -48,7 +48,7 @@
     $(document).ready(function(){    
 	$("#submit").click(function(){
         var email = $('#email').val();
-        var password = $('password').val();
+        var password = $('#password').val();
 		 $("#submitdata").submit();
 	});
 });

@@ -4,6 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class Login_model extends CI_Model {
     public function __construct() {
         parent::__construct();
+        $this->load->database();
     }
 
     public function check_user($data) {
@@ -12,7 +13,7 @@ class Login_model extends CI_Model {
         $this->db->where('email',$data['email']);
         $this->db->where('password',$data['password']);
         $result = $this->db->get();
-        return $result->row_array();
+        return $result->row();
     }
 }
 ?>
