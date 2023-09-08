@@ -9,6 +9,8 @@
 <body>
     <div class="container">
         <h2 class="mt-5">Registration Form</h2>
+        
+	  	<div id="messages"></div>
         <form action="<?php echo base_url('Registration/save'); ?>" method="POST" id="submitdata" enctype="multipart/form-data">
             <div class="form-group">
                 <label for="name">Name:</label>
@@ -40,7 +42,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
+
 <script>
     $(document).ready(function(){    
 	$("#submit").click(function(){
@@ -48,13 +50,40 @@
 		var dataString = $("#submitdata :input").serializeArray();
 		$.ajax({
 			type: "POST",
-			url: '<?php echo base_url('Registration/save'); ?>',
+			url: '<?php echo site_url('Registration/save'); ?>',
 			data: dataString,
 			dataType:'JSON',
-			success: function(res){
-                
-					}
+			success: function(result){
+                if(result.success == true) {
+					$("#messages").html('<div class="alert alert-success alert-dismissible" role="alert">'+
+					  '<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>'+
+					  result.messages+
+					'</div>');
+
+					$("#submitdata")[0].reset();
+					$(".text-danger").remove();
+					$(".form-group").removeClass('has-error').removeClass('has-success');
+
+				}
+				else {
+					$.each(result.messages, function(index, value) {
+						var element = $("#"+index);
+
+						$(element)
+						.closest('.form-group')
+						.removeClass('has-error')
+						.removeClass('has-success')
+						.addClass(value.length > 0 ? 'has-error' : 'has-success')
+						.find('.text-danger').remove();
+
+						$(element).after(value);
+
+					});
+				}
+			}
+        });
 	});
 });
 </script>
+</body>
 </html>

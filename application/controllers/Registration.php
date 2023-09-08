@@ -5,12 +5,15 @@ class Registration extends CI_Controller
 	public function __construct() 
 	{
 		parent::__construct();
+        $this->load->model('user_model');
 	}
 	public function register()
 	{
 		$this->load->view('register');
 	}
-    public function save() {
+    public function save() 
+    { 
+        $result = array('success' => false, 'messages' => array());
         $data = array(
             'name' => $this->input->post('name'),
             'email' => $this->input->post('email'),
@@ -21,7 +24,6 @@ class Registration extends CI_Controller
         $config['allowed_types'] = 'gif|jpg|png|jpeg'; 
         $config['max_size'] = 2048;
         $config['file_name'] = 'profile_pic_' . uniqid();
-
         $this->load->library('upload', $config);
 
         if ($this->upload->do_upload('profile_pic')) {
@@ -35,9 +37,14 @@ class Registration extends CI_Controller
         $result = $this->user_model->save_user($data);
 
         if ($result) {
-            $this->session->set_flashdata('registration_message', 'Registration Success..');
+            $result['success'] = true;
+			$result['messages'] = 'Successfully Registered';
         } else {
-            $this->session->set_flashdata('registration_message', 'Registration failed. Please try again.');
-        }
+            $result['success'] = false;
+			foreach ($_POST as $key => $value) {
+				$result['messages'][$key] = form_error($key);
+			}
+         }
+         echo json_encode($result);
     }
 }
