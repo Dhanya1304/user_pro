@@ -13,11 +13,23 @@ class Dashboard extends CI_Controller {
     }
 
     public function add_friend() {
-        $userId = $this->input->post('userId'); 
-        
+        $loggedInUserId = $_SESSION['id'];
+        $friendId = $this->input->post('userId');
+        $friendExists = $this->friend_model->check_friend($loggedInUserId, $friendId);
+
+    if (!$friendExists) {
+        $data = array(
+            'user_id' => $loggedInUserId,
+            'friend_id' => $friendId
+        );
+
+        $this->friend_model->add_friend($data);
         $response = array('success' => true);
-        echo json_encode($response);
+    } else {
+        $response = array('success' => false, 'message' => 'Friendship already exists.');
     }
+    echo json_encode($response);
+}
 
     public function listFriends() {
 
