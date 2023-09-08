@@ -32,12 +32,24 @@ class Registration extends CI_Controller
             $data['profile_pic'] = $this->upload->data('file_name');
         } else {
             $error = $this->upload->display_errors();
-            echo $error;
+            echo  json_encode(array('msg'=>$error,'success'=>false));
             return;
         }
 
         $result = $this->user_model->save_user($data);
-
-         echo json_encode($result);
+        if($result){
+            $res = array(
+                'status' => 'success',
+                'message' => 'User registered successfully',
+                'redirect_url' => base_url()
+            );
+            $res =  redirect(site_url(), "refresh");
+        }else {
+            $res = array(
+                'status' => 'error',
+                'message' => 'User registration failed'
+            );
+        }
+         echo json_encode($res);
     }
 }

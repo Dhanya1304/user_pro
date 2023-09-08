@@ -578,3 +578,403 @@ DEBUG - 2023-09-08 13:27:22 --> Total execution time: 0.0890
 DEBUG - 2023-09-08 13:28:25 --> UTF-8 Support Enabled
 DEBUG - 2023-09-08 13:28:25 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2023-09-08 13:28:25 --> Total execution time: 0.5137
+DEBUG - 2023-09-08 14:01:01 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 14:01:02 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 14:01:03 --> Total execution time: 1.9489
+DEBUG - 2023-09-08 14:01:03 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 14:01:03 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 14:01:03 --> Total execution time: 0.1202
+DEBUG - 2023-09-08 14:01:10 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 14:01:10 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 14:01:10 --> Total execution time: 0.1508
+DEBUG - 2023-09-08 14:01:12 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 14:01:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 14:01:13 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 14:01:13 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 14:01:13 --> Total execution time: 0.0721
+DEBUG - 2023-09-08 14:01:14 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 14:01:14 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 14:01:14 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 14:01:14 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 14:01:14 --> Total execution time: 0.0568
+DEBUG - 2023-09-08 14:01:15 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 14:01:15 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 14:01:15 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 14:01:15 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 14:01:15 --> Total execution time: 0.0640
+DEBUG - 2023-09-08 14:01:16 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 14:01:16 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 14:01:16 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 14:01:16 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 14:01:16 --> Total execution time: 0.0774
+DEBUG - 2023-09-08 14:34:39 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 14:34:39 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 14:34:39 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 14:34:39 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 14:34:40 --> Total execution time: 0.0701
+DEBUG - 2023-09-08 14:34:40 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 14:34:40 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 14:34:41 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 14:34:41 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 14:34:41 --> Total execution time: 0.0503
+DEBUG - 2023-09-08 14:34:41 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 14:34:41 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 14:34:42 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 14:34:42 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 14:34:42 --> Total execution time: 0.0611
+DEBUG - 2023-09-08 14:34:43 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 14:34:43 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 14:34:43 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 14:34:43 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 14:34:43 --> Total execution time: 0.0697
+DEBUG - 2023-09-08 14:34:43 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 14:34:43 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 14:34:43 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 14:34:43 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 14:34:43 --> Total execution time: 0.0653
+DEBUG - 2023-09-08 14:34:50 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 14:34:51 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 14:34:51 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 14:34:51 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 14:34:51 --> Total execution time: 0.0539
+DEBUG - 2023-09-08 14:40:58 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 14:40:58 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-09-08 14:40:58 --> Severity: Notice --> Undefined variable: _SESSION C:\xampp\htdocs\user_pro\application\controllers\Dashboard.php 11
+ERROR - 2023-09-08 14:40:58 --> Severity: Notice --> Undefined variable: users C:\xampp\htdocs\user_pro\application\views\dashboard.php 14
+ERROR - 2023-09-08 14:40:58 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\user_pro\application\views\dashboard.php 14
+ERROR - 2023-09-08 14:40:58 --> Severity: Notice --> Undefined variable: friends C:\xampp\htdocs\user_pro\application\views\dashboard.php 28
+ERROR - 2023-09-08 14:40:58 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\user_pro\application\views\dashboard.php 28
+DEBUG - 2023-09-08 14:40:58 --> Total execution time: 0.1138
+DEBUG - 2023-09-08 14:41:07 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 14:41:07 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-09-08 14:41:07 --> 404 Page Not Found: Edit_profile/index
+ERROR - 2023-09-08 14:41:07 --> Severity: Warning --> include(C:\xampp\htdocs\user_pro\application\views\errors\html\error_404.php): failed to open stream: No such file or directory C:\xampp\htdocs\user_pro\system\core\Exceptions.php 182
+ERROR - 2023-09-08 14:41:07 --> Severity: Warning --> include(): Failed opening 'C:\xampp\htdocs\user_pro\application\views\errors\html\error_404.php' for inclusion (include_path='C:\xampp\php\PEAR') C:\xampp\htdocs\user_pro\system\core\Exceptions.php 182
+DEBUG - 2023-09-08 14:46:19 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 14:46:19 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-09-08 14:46:19 --> Severity: Notice --> Undefined variable: _SESSION C:\xampp\htdocs\user_pro\application\controllers\Dashboard.php 11
+ERROR - 2023-09-08 14:46:19 --> Severity: Notice --> Undefined variable: users C:\xampp\htdocs\user_pro\application\views\dashboard.php 14
+ERROR - 2023-09-08 14:46:19 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\user_pro\application\views\dashboard.php 14
+ERROR - 2023-09-08 14:46:19 --> Severity: Notice --> Undefined variable: friends C:\xampp\htdocs\user_pro\application\views\dashboard.php 28
+ERROR - 2023-09-08 14:46:19 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\user_pro\application\views\dashboard.php 28
+DEBUG - 2023-09-08 14:46:19 --> Total execution time: 0.0600
+DEBUG - 2023-09-08 14:46:22 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 14:46:22 --> No URI present. Default controller set.
+DEBUG - 2023-09-08 14:46:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 14:46:22 --> Total execution time: 0.0753
+DEBUG - 2023-09-08 14:46:25 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 14:46:25 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 14:46:25 --> Total execution time: 0.1731
+DEBUG - 2023-09-08 14:46:26 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 14:46:26 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 14:46:27 --> Total execution time: 0.0562
+DEBUG - 2023-09-08 14:46:31 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 14:46:31 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-09-08 14:46:31 --> Severity: Warning --> Illegal string offset 'email' C:\xampp\htdocs\user_pro\application\models\login_model.php 13
+DEBUG - 2023-09-08 14:46:31 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 14:46:31 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 14:46:31 --> Total execution time: 0.0524
+DEBUG - 2023-09-08 14:47:23 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 14:47:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 14:47:23 --> Total execution time: 0.0509
+DEBUG - 2023-09-08 14:47:25 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 14:47:25 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-09-08 14:47:25 --> Severity: Warning --> Illegal string offset 'email' C:\xampp\htdocs\user_pro\application\models\login_model.php 13
+DEBUG - 2023-09-08 14:47:25 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 14:47:25 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 14:47:25 --> Total execution time: 0.0894
+DEBUG - 2023-09-08 14:47:27 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 14:47:27 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-09-08 14:47:27 --> Severity: Warning --> Illegal string offset 'email' C:\xampp\htdocs\user_pro\application\models\login_model.php 13
+DEBUG - 2023-09-08 14:47:27 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 14:47:27 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 14:47:27 --> Total execution time: 0.0567
+DEBUG - 2023-09-08 14:47:33 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 14:47:33 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-09-08 14:47:33 --> Severity: Warning --> Illegal string offset 'email' C:\xampp\htdocs\user_pro\application\models\login_model.php 13
+DEBUG - 2023-09-08 14:47:33 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 14:47:33 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 14:47:33 --> Total execution time: 0.0890
+DEBUG - 2023-09-08 14:47:34 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 14:47:34 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-09-08 14:47:34 --> Severity: Warning --> Illegal string offset 'email' C:\xampp\htdocs\user_pro\application\models\login_model.php 13
+DEBUG - 2023-09-08 14:47:34 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 14:47:34 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 14:47:34 --> Total execution time: 0.0585
+DEBUG - 2023-09-08 14:48:08 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 14:48:08 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 14:48:08 --> Total execution time: 0.0547
+DEBUG - 2023-09-08 14:48:10 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 14:48:10 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-09-08 14:48:10 --> Severity: Warning --> Illegal string offset 'email' C:\xampp\htdocs\user_pro\application\models\login_model.php 13
+DEBUG - 2023-09-08 14:48:28 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 14:48:28 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 14:48:28 --> Total execution time: 0.0609
+DEBUG - 2023-09-08 14:48:28 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 14:48:28 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 14:48:28 --> Total execution time: 0.1021
+DEBUG - 2023-09-08 14:48:39 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 14:48:39 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-09-08 14:48:39 --> Severity: Warning --> Illegal string offset 'email' C:\xampp\htdocs\user_pro\application\models\login_model.php 13
+DEBUG - 2023-09-08 14:48:39 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 14:48:39 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 14:48:39 --> Total execution time: 0.0562
+DEBUG - 2023-09-08 14:48:40 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 14:48:40 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-09-08 14:48:40 --> Severity: Warning --> Illegal string offset 'email' C:\xampp\htdocs\user_pro\application\models\login_model.php 13
+DEBUG - 2023-09-08 14:48:40 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 14:48:40 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 14:48:40 --> Total execution time: 0.0549
+DEBUG - 2023-09-08 14:50:07 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 14:50:07 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 14:50:07 --> Total execution time: 0.0620
+DEBUG - 2023-09-08 14:50:09 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 14:50:09 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-09-08 14:50:09 --> Severity: Warning --> Illegal string offset 'email' C:\xampp\htdocs\user_pro\application\models\login_model.php 13
+DEBUG - 2023-09-08 14:50:09 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 14:50:09 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 14:50:09 --> Total execution time: 0.0552
+DEBUG - 2023-09-08 14:50:10 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 14:50:10 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-09-08 14:50:10 --> Severity: Warning --> Illegal string offset 'email' C:\xampp\htdocs\user_pro\application\models\login_model.php 13
+DEBUG - 2023-09-08 14:50:10 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 14:50:10 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 14:50:10 --> Total execution time: 0.0613
+DEBUG - 2023-09-08 14:50:12 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 14:50:12 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-09-08 14:50:12 --> Severity: Warning --> Illegal string offset 'email' C:\xampp\htdocs\user_pro\application\models\login_model.php 13
+DEBUG - 2023-09-08 14:50:12 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 14:50:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 14:50:12 --> Total execution time: 0.0626
+DEBUG - 2023-09-08 14:50:14 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 14:50:14 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-09-08 14:50:14 --> Severity: Warning --> Illegal string offset 'email' C:\xampp\htdocs\user_pro\application\models\login_model.php 13
+DEBUG - 2023-09-08 14:50:14 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 14:50:14 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 14:50:14 --> Total execution time: 0.0547
+DEBUG - 2023-09-08 14:50:18 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 14:50:18 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-09-08 14:50:18 --> Severity: Warning --> Illegal string offset 'email' C:\xampp\htdocs\user_pro\application\models\login_model.php 13
+DEBUG - 2023-09-08 14:50:18 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 14:50:18 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 14:50:18 --> Total execution time: 0.0795
+DEBUG - 2023-09-08 15:28:42 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 15:28:42 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-09-08 15:28:43 --> Severity: Warning --> Illegal string offset 'email' C:\xampp\htdocs\user_pro\application\models\login_model.php 13
+DEBUG - 2023-09-08 15:28:43 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 15:28:43 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 15:28:44 --> Total execution time: 0.7685
+DEBUG - 2023-09-08 16:05:36 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 16:05:36 --> No URI present. Default controller set.
+DEBUG - 2023-09-08 16:05:36 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 16:05:36 --> Total execution time: 0.1392
+DEBUG - 2023-09-08 16:08:11 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 16:08:11 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 16:08:11 --> Total execution time: 0.0867
+DEBUG - 2023-09-08 16:08:40 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 16:08:40 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 16:08:40 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 16:08:40 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 16:08:40 --> Total execution time: 0.4146
+DEBUG - 2023-09-08 16:08:40 --> Total execution time: 0.4856
+DEBUG - 2023-09-08 16:09:21 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 16:09:21 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 16:09:22 --> Total execution time: 0.3163
+DEBUG - 2023-09-08 16:18:54 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 16:18:54 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 16:18:54 --> You did not select a file to upload.
+DEBUG - 2023-09-08 16:18:54 --> Total execution time: 0.2669
+DEBUG - 2023-09-08 16:18:58 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 16:18:58 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 16:18:58 --> Total execution time: 0.0670
+DEBUG - 2023-09-08 16:19:08 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 16:19:08 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 16:19:08 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 16:19:08 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 16:19:08 --> Total execution time: 0.2826
+DEBUG - 2023-09-08 16:19:08 --> You did not select a file to upload.
+DEBUG - 2023-09-08 16:19:08 --> Total execution time: 0.4413
+DEBUG - 2023-09-08 16:22:59 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 16:22:59 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 16:23:00 --> Total execution time: 0.3017
+DEBUG - 2023-09-08 16:23:05 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 16:23:05 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 16:23:05 --> Total execution time: 0.0765
+DEBUG - 2023-09-08 16:23:10 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 16:23:10 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 16:23:10 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 16:23:11 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 16:23:11 --> You did not select a file to upload.
+DEBUG - 2023-09-08 16:23:11 --> Total execution time: 0.2491
+DEBUG - 2023-09-08 16:23:11 --> Total execution time: 0.3747
+DEBUG - 2023-09-08 16:23:55 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 16:23:55 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 16:23:55 --> Total execution time: 0.1503
+DEBUG - 2023-09-08 16:24:07 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 16:24:07 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 16:24:07 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 16:24:07 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 16:24:07 --> You did not select a file to upload.
+DEBUG - 2023-09-08 16:24:07 --> Total execution time: 0.2652
+DEBUG - 2023-09-08 16:24:07 --> Total execution time: 0.3543
+DEBUG - 2023-09-08 16:24:09 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 16:24:09 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-09-08 16:24:09 --> 404 Page Not Found: Registration/undefined
+ERROR - 2023-09-08 16:24:09 --> Severity: Warning --> include(C:\xampp\htdocs\user_pro\application\views\errors\html\error_404.php): failed to open stream: No such file or directory C:\xampp\htdocs\user_pro\system\core\Exceptions.php 182
+ERROR - 2023-09-08 16:24:09 --> Severity: Warning --> include(): Failed opening 'C:\xampp\htdocs\user_pro\application\views\errors\html\error_404.php' for inclusion (include_path='C:\xampp\php\PEAR') C:\xampp\htdocs\user_pro\system\core\Exceptions.php 182
+DEBUG - 2023-09-08 16:24:33 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 16:24:33 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 16:24:33 --> Total execution time: 0.0677
+DEBUG - 2023-09-08 16:24:38 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 16:24:38 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 16:24:38 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 16:24:38 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 16:24:38 --> You did not select a file to upload.
+DEBUG - 2023-09-08 16:24:38 --> Total execution time: 0.2293
+DEBUG - 2023-09-08 16:24:38 --> Total execution time: 0.4022
+DEBUG - 2023-09-08 16:24:40 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 16:24:40 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-09-08 16:24:40 --> 404 Page Not Found: Registration/undefined
+ERROR - 2023-09-08 16:24:40 --> Severity: Warning --> include(C:\xampp\htdocs\user_pro\application\views\errors\html\error_404.php): failed to open stream: No such file or directory C:\xampp\htdocs\user_pro\system\core\Exceptions.php 182
+ERROR - 2023-09-08 16:24:40 --> Severity: Warning --> include(): Failed opening 'C:\xampp\htdocs\user_pro\application\views\errors\html\error_404.php' for inclusion (include_path='C:\xampp\php\PEAR') C:\xampp\htdocs\user_pro\system\core\Exceptions.php 182
+DEBUG - 2023-09-08 16:25:38 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 16:25:38 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 16:25:38 --> Total execution time: 0.1192
+DEBUG - 2023-09-08 16:25:44 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 16:25:44 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 16:25:44 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 16:25:44 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 16:25:44 --> You did not select a file to upload.
+DEBUG - 2023-09-08 16:25:44 --> Total execution time: 0.2479
+DEBUG - 2023-09-08 16:25:44 --> Total execution time: 0.3608
+DEBUG - 2023-09-08 16:26:27 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 16:26:27 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 16:26:27 --> You did not select a file to upload.
+DEBUG - 2023-09-08 16:26:27 --> Total execution time: 0.2185
+DEBUG - 2023-09-08 16:26:30 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 16:26:30 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 16:26:30 --> Total execution time: 0.0647
+DEBUG - 2023-09-08 16:26:33 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 16:26:33 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 16:26:33 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 16:26:33 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 16:26:34 --> You did not select a file to upload.
+DEBUG - 2023-09-08 16:26:34 --> Total execution time: 0.2640
+DEBUG - 2023-09-08 16:26:34 --> Total execution time: 0.5172
+DEBUG - 2023-09-08 16:26:36 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 16:26:36 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-09-08 16:26:36 --> 404 Page Not Found: Registration/undefined
+ERROR - 2023-09-08 16:26:36 --> Severity: Warning --> include(C:\xampp\htdocs\user_pro\application\views\errors\html\error_404.php): failed to open stream: No such file or directory C:\xampp\htdocs\user_pro\system\core\Exceptions.php 182
+ERROR - 2023-09-08 16:26:36 --> Severity: Warning --> include(): Failed opening 'C:\xampp\htdocs\user_pro\application\views\errors\html\error_404.php' for inclusion (include_path='C:\xampp\php\PEAR') C:\xampp\htdocs\user_pro\system\core\Exceptions.php 182
+DEBUG - 2023-09-08 16:27:20 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 16:27:20 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 16:27:20 --> Total execution time: 0.0723
+DEBUG - 2023-09-08 16:27:24 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 16:27:24 --> No URI present. Default controller set.
+DEBUG - 2023-09-08 16:27:24 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 16:27:24 --> Total execution time: 0.0861
+DEBUG - 2023-09-08 16:27:26 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 16:27:26 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 16:27:26 --> Total execution time: 0.0631
+DEBUG - 2023-09-08 16:27:34 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 16:27:34 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 16:27:34 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 16:27:34 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 16:27:34 --> You did not select a file to upload.
+DEBUG - 2023-09-08 16:27:34 --> Total execution time: 0.2378
+DEBUG - 2023-09-08 16:27:34 --> You did not select a file to upload.
+DEBUG - 2023-09-08 16:27:34 --> Total execution time: 0.2558
+DEBUG - 2023-09-08 16:27:36 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 16:27:36 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-09-08 16:27:36 --> 404 Page Not Found: Registration/undefined
+ERROR - 2023-09-08 16:27:36 --> Severity: Warning --> include(C:\xampp\htdocs\user_pro\application\views\errors\html\error_404.php): failed to open stream: No such file or directory C:\xampp\htdocs\user_pro\system\core\Exceptions.php 182
+ERROR - 2023-09-08 16:27:36 --> Severity: Warning --> include(): Failed opening 'C:\xampp\htdocs\user_pro\application\views\errors\html\error_404.php' for inclusion (include_path='C:\xampp\php\PEAR') C:\xampp\htdocs\user_pro\system\core\Exceptions.php 182
+DEBUG - 2023-09-08 16:27:51 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 16:27:51 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 16:27:51 --> Total execution time: 0.1291
+DEBUG - 2023-09-08 16:27:56 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 16:27:56 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 16:27:56 --> You did not select a file to upload.
+DEBUG - 2023-09-08 16:27:56 --> Total execution time: 0.2053
+DEBUG - 2023-09-08 16:28:00 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 16:28:00 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-09-08 16:28:00 --> 404 Page Not Found: Registration/undefined
+ERROR - 2023-09-08 16:28:00 --> Severity: Warning --> include(C:\xampp\htdocs\user_pro\application\views\errors\html\error_404.php): failed to open stream: No such file or directory C:\xampp\htdocs\user_pro\system\core\Exceptions.php 182
+ERROR - 2023-09-08 16:28:00 --> Severity: Warning --> include(): Failed opening 'C:\xampp\htdocs\user_pro\application\views\errors\html\error_404.php' for inclusion (include_path='C:\xampp\php\PEAR') C:\xampp\htdocs\user_pro\system\core\Exceptions.php 182
+DEBUG - 2023-09-08 16:28:08 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 16:28:08 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 16:28:08 --> Total execution time: 0.1106
+DEBUG - 2023-09-08 16:31:41 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 16:31:41 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 16:31:42 --> Total execution time: 0.0856
+DEBUG - 2023-09-08 16:31:43 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 16:31:43 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 16:31:43 --> Total execution time: 0.1012
+DEBUG - 2023-09-08 16:31:56 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 16:31:56 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 16:31:56 --> Total execution time: 0.3908
+DEBUG - 2023-09-08 16:35:36 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 16:35:36 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 16:35:36 --> You did not select a file to upload.
+DEBUG - 2023-09-08 16:35:36 --> Total execution time: 0.1910
+DEBUG - 2023-09-08 16:35:38 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 16:35:38 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 16:35:38 --> Total execution time: 0.0673
+DEBUG - 2023-09-08 16:35:40 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 16:35:40 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 16:35:40 --> Total execution time: 0.2977
+DEBUG - 2023-09-08 16:35:45 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 16:35:45 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 16:35:45 --> Total execution time: 0.1189
+DEBUG - 2023-09-08 16:35:47 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 16:35:47 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 16:35:47 --> Total execution time: 0.2431
+DEBUG - 2023-09-08 16:35:49 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 16:35:49 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 16:35:49 --> Total execution time: 0.0686
+DEBUG - 2023-09-08 16:35:50 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 16:35:50 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 16:35:50 --> Total execution time: 0.0839
+DEBUG - 2023-09-08 16:36:00 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 16:36:00 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 16:36:00 --> Total execution time: 0.3262
+DEBUG - 2023-09-08 16:38:00 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 16:38:00 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 16:38:00 --> Total execution time: 0.4266
+DEBUG - 2023-09-08 16:38:02 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 16:38:02 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 16:38:02 --> Total execution time: 0.0762
+DEBUG - 2023-09-08 16:38:03 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 16:38:03 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 16:38:03 --> Total execution time: 0.0794
+DEBUG - 2023-09-08 16:38:11 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 16:38:11 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 16:38:11 --> Total execution time: 0.3038
+DEBUG - 2023-09-08 16:41:22 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 16:41:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 16:41:22 --> Total execution time: 0.0879
+DEBUG - 2023-09-08 16:41:24 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 16:41:24 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 16:41:25 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 16:41:25 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-09-08 16:41:25 --> 404 Page Not Found: Home/index
+ERROR - 2023-09-08 16:41:25 --> Severity: Warning --> include(C:\xampp\htdocs\user_pro\application\views\errors\html\error_404.php): failed to open stream: No such file or directory C:\xampp\htdocs\user_pro\system\core\Exceptions.php 182
+ERROR - 2023-09-08 16:41:25 --> Severity: Warning --> include(): Failed opening 'C:\xampp\htdocs\user_pro\application\views\errors\html\error_404.php' for inclusion (include_path='C:\xampp\php\PEAR') C:\xampp\htdocs\user_pro\system\core\Exceptions.php 182
+DEBUG - 2023-09-08 16:41:47 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 16:41:47 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 16:41:47 --> Total execution time: 0.0730
+DEBUG - 2023-09-08 16:41:50 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 16:41:50 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 16:41:50 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 16:41:50 --> No URI present. Default controller set.
+DEBUG - 2023-09-08 16:41:50 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 16:41:50 --> Total execution time: 0.0886
+DEBUG - 2023-09-08 16:41:56 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 16:41:56 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 16:41:56 --> Total execution time: 0.0822
+DEBUG - 2023-09-08 16:42:04 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 16:42:04 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 16:42:04 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 16:42:04 --> No URI present. Default controller set.
+DEBUG - 2023-09-08 16:42:04 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 16:42:04 --> Total execution time: 0.0837

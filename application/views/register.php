@@ -59,13 +59,19 @@
 			type: "POST",
 			url: '<?php echo site_url('Registration/save'); ?>',
 			data: dataString,
-			dataType:'JSON',
+			dataType:"json",
 			success: function(response){
-                if (response.success) {
-                  alert('User added successfully!');
-                }else {
-                        alert('User has not added.');
+                if (response.status === 'success') {
+                        alert(response.message); 
+                        window.location.href = response;
+                    } else {
+                        alert(response.message); 
                     }
+                },
+                error: function(xhr, status, error) {
+                    console.error(error);
+                }
+                }
         });
 	});
 });

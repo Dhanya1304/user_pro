@@ -14,16 +14,14 @@ class Login extends CI_Controller
 	}
 	public function loginuser()
 	{ 
-		if (isset($_POST['email']) && isset($_POST['password'])) {
-			$data['email']    = $_POST['email'];
-			$data['password'] = $_POST['password'];
-		}
-		$user = $this->Login_Model->check_user($data);
-		if($user){
-			$_SESSION['id']     = $user['id'];
-			$_SESSION['data']   = $user; 
+			$email = $this->input->post('email');
+			$password = $this->input->post('password');
+		$user = $this->Login_Model->check_user($email);
+		if ($user) {
+                $_SESSION['user_id'] = $user['id'];
+                $_SESSION['user_email'] = $user['email'];
 			redirect(site_url('Dashboard/index'));
-		}
+	}
 	else{
 		redirect(site_url('Login/index'));
 		}
