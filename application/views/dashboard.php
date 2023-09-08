@@ -3,7 +3,7 @@
 <div class="container">
     <h2>Welcome to Your Dashboard</h2>
 	<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						  <a class="dropdown-item" href="<?=base_url()?>index.php/edit_profile">Profile</a>
+						  <a class="dropdown-item" href="<?=base_url()?>Registration/edit_profile">Profile</a>
 						  <a href="<?=base_url()?>index.php/Login/logout" class="dropdown-item" href="#">Logout</a>
 						</div>
     <div class="mb-4">

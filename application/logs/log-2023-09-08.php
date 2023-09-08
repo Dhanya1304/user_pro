@@ -978,3 +978,83 @@ DEBUG - 2023-09-08 16:42:04 --> UTF-8 Support Enabled
 DEBUG - 2023-09-08 16:42:04 --> No URI present. Default controller set.
 DEBUG - 2023-09-08 16:42:04 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2023-09-08 16:42:04 --> Total execution time: 0.0837
+DEBUG - 2023-09-08 16:47:29 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 16:47:29 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 16:47:29 --> Total execution time: 0.0792
+DEBUG - 2023-09-08 16:47:37 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 16:47:37 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-09-08 16:47:37 --> Severity: Notice --> Undefined property: Registration::$session C:\xampp\htdocs\user_pro\application\controllers\Registration.php 41
+ERROR - 2023-09-08 16:47:37 --> Severity: error --> Exception: Call to a member function set_flashdata() on null C:\xampp\htdocs\user_pro\application\controllers\Registration.php 41
+ERROR - 2023-09-08 16:47:37 --> Severity: Warning --> include(C:\xampp\htdocs\user_pro\application\views\errors\html\error_exception.php): failed to open stream: No such file or directory C:\xampp\htdocs\user_pro\system\core\Exceptions.php 219
+ERROR - 2023-09-08 16:47:37 --> Severity: Warning --> include(): Failed opening 'C:\xampp\htdocs\user_pro\application\views\errors\html\error_exception.php' for inclusion (include_path='C:\xampp\php\PEAR') C:\xampp\htdocs\user_pro\system\core\Exceptions.php 219
+DEBUG - 2023-09-08 16:47:41 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 16:47:41 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 16:47:41 --> Total execution time: 0.0699
+DEBUG - 2023-09-08 16:52:14 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 16:52:14 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-09-08 16:52:14 --> Severity: Notice --> Undefined variable: _SESSION C:\xampp\htdocs\user_pro\application\controllers\Dashboard.php 11
+ERROR - 2023-09-08 16:52:14 --> Severity: Notice --> Undefined variable: users C:\xampp\htdocs\user_pro\application\views\dashboard.php 32
+ERROR - 2023-09-08 16:52:14 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\user_pro\application\views\dashboard.php 32
+ERROR - 2023-09-08 16:52:14 --> Severity: Notice --> Undefined variable: friends C:\xampp\htdocs\user_pro\application\views\dashboard.php 46
+ERROR - 2023-09-08 16:52:14 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\user_pro\application\views\dashboard.php 46
+DEBUG - 2023-09-08 16:52:14 --> Total execution time: 0.1928
+DEBUG - 2023-09-08 17:01:02 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 17:01:02 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-09-08 17:01:02 --> Severity: Notice --> Undefined variable: _SESSION C:\xampp\htdocs\user_pro\application\controllers\Dashboard.php 11
+ERROR - 2023-09-08 17:01:02 --> Severity: Notice --> Undefined variable: users C:\xampp\htdocs\user_pro\application\views\dashboard.php 14
+ERROR - 2023-09-08 17:01:02 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\user_pro\application\views\dashboard.php 14
+ERROR - 2023-09-08 17:01:02 --> Severity: Notice --> Undefined variable: friends C:\xampp\htdocs\user_pro\application\views\dashboard.php 28
+ERROR - 2023-09-08 17:01:02 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\user_pro\application\views\dashboard.php 28
+DEBUG - 2023-09-08 17:01:02 --> Total execution time: 0.1221
+DEBUG - 2023-09-08 17:01:04 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 17:01:04 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-09-08 17:01:04 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\user_pro\application\controllers\Registration.php 56
+DEBUG - 2023-09-08 17:01:04 --> Total execution time: 0.0656
+DEBUG - 2023-09-08 17:03:21 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 17:03:21 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-09-08 17:03:21 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\user_pro\application\controllers\Registration.php 56
+ERROR - 2023-09-08 17:03:21 --> Severity: Notice --> Undefined variable: profile_pic C:\xampp\htdocs\user_pro\application\views\edit_pro.php 35
+DEBUG - 2023-09-08 17:03:21 --> Total execution time: 0.0725
+DEBUG - 2023-09-08 17:03:22 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 17:03:22 --> No URI present. Default controller set.
+DEBUG - 2023-09-08 17:03:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 17:03:22 --> Total execution time: 0.0969
+DEBUG - 2023-09-08 17:07:14 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 17:07:14 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-09-08 17:07:14 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\user_pro\application\controllers\Registration.php 56
+ERROR - 2023-09-08 17:07:14 --> Severity: Notice --> Undefined variable: id C:\xampp\htdocs\user_pro\application\views\edit_pro.php 22
+ERROR - 2023-09-08 17:07:14 --> Severity: Notice --> Undefined variable: name C:\xampp\htdocs\user_pro\application\views\edit_pro.php 25
+ERROR - 2023-09-08 17:07:14 --> Severity: Notice --> Undefined variable: email C:\xampp\htdocs\user_pro\application\views\edit_pro.php 29
+ERROR - 2023-09-08 17:07:14 --> Severity: Notice --> Undefined variable: password C:\xampp\htdocs\user_pro\application\views\edit_pro.php 32
+ERROR - 2023-09-08 17:07:14 --> Severity: Notice --> Undefined variable: profile_pic C:\xampp\htdocs\user_pro\application\views\edit_pro.php 36
+DEBUG - 2023-09-08 17:07:14 --> Total execution time: 0.1066
+DEBUG - 2023-09-08 17:07:14 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 17:07:14 --> No URI present. Default controller set.
+DEBUG - 2023-09-08 17:07:14 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 17:07:14 --> Total execution time: 0.1214
+DEBUG - 2023-09-08 17:10:13 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 17:10:13 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-09-08 17:10:13 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\user_pro\application\controllers\Registration.php 56
+ERROR - 2023-09-08 17:10:13 --> Severity: Notice --> Undefined variable: id C:\xampp\htdocs\user_pro\application\views\edit_pro.php 22
+ERROR - 2023-09-08 17:10:13 --> Severity: Notice --> Undefined variable: name C:\xampp\htdocs\user_pro\application\views\edit_pro.php 25
+ERROR - 2023-09-08 17:10:13 --> Severity: Notice --> Undefined variable: email C:\xampp\htdocs\user_pro\application\views\edit_pro.php 29
+ERROR - 2023-09-08 17:10:13 --> Severity: Notice --> Undefined variable: password C:\xampp\htdocs\user_pro\application\views\edit_pro.php 32
+ERROR - 2023-09-08 17:10:13 --> Severity: Notice --> Undefined variable: profile_pic C:\xampp\htdocs\user_pro\application\views\edit_pro.php 36
+DEBUG - 2023-09-08 17:10:13 --> Total execution time: 0.1845
+DEBUG - 2023-09-08 17:10:14 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 17:10:14 --> No URI present. Default controller set.
+DEBUG - 2023-09-08 17:10:14 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 17:10:14 --> Total execution time: 0.1162
+DEBUG - 2023-09-08 17:12:53 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 17:12:53 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-09-08 17:12:53 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\user_pro\application\controllers\Registration.php 56
+ERROR - 2023-09-08 17:12:53 --> Severity: Notice --> Undefined variable: id C:\xampp\htdocs\user_pro\application\views\edit_pro.php 22
+ERROR - 2023-09-08 17:12:53 --> Severity: Notice --> Undefined variable: name C:\xampp\htdocs\user_pro\application\views\edit_pro.php 25
+ERROR - 2023-09-08 17:12:53 --> Severity: Notice --> Undefined variable: email C:\xampp\htdocs\user_pro\application\views\edit_pro.php 29
+ERROR - 2023-09-08 17:12:53 --> Severity: Notice --> Undefined variable: password C:\xampp\htdocs\user_pro\application\views\edit_pro.php 32
+ERROR - 2023-09-08 17:12:53 --> Severity: Notice --> Undefined variable: profile_pic C:\xampp\htdocs\user_pro\application\views\edit_pro.php 36
+DEBUG - 2023-09-08 17:12:53 --> Total execution time: 0.0864
+DEBUG - 2023-09-08 17:12:53 --> UTF-8 Support Enabled
+DEBUG - 2023-09-08 17:12:53 --> No URI present. Default controller set.
+DEBUG - 2023-09-08 17:12:53 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-09-08 17:12:53 --> Total execution time: 0.0831

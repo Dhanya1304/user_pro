@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registration Form</title>
+    <title>Edit Profile</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
         #login{
@@ -13,26 +13,27 @@
 </head>
 <body>
     <div class="container">
-        <h2 class="mt-5">Registration Form</h2>
+        <h2 class="mt-5">Edit Profile</h2>
         
         <div id="divMsg" class="alert alert-success" style="display: none">
          <span id="msg"></span>
         </div>
         <form action="<?php echo base_url('Registration/save'); ?>" method="POST" id="submitdata" enctype="multipart/form-data">
+        <input class="form-control" type="hidden" id="id" name="id" value="<?php echo $id; ?>">
             <div class="form-group">
                 <label for="name">Name:</label>
-                <input type="text" class="form-control" id="name" name="name" required>
+                <input type="text" class="form-control" id="name" name="name" value="<?php echo $name; ?>" required>
             </div>
             <div class="form-group">
                 <label for="email">Email:</label>
-                <input type="email" class="form-control" id="email" name="email" required>
+                <input type="email" class="form-control" id="email" name="email" value="<?php echo $email; ?>" required>
             </div><div class="form-group">
                 <label for="confirm_password"> Password:</label>
-                <input type="password" class="form-control" id="password" name="confirm_password" required>
+                <input type="password" class="form-control" id="password" name="password" value="<?php echo $password; ?>"required>
             </div>
             <div class="form-group">
-                <label for="password">Profile pic:</label>
-                <input type="file" name="profile_pic" required><br>
+            <div class="control-label image-label"><label>Profile Photo</label></div>
+						<div class="form-control col-lg-8 col-sm-8 image-display" style="background-image:url('<?php echo base_url($profile_pic); ?>')"></div>
             </div>
             <div class="form-group">
                 <label for="gender">Gender:</label>
@@ -42,7 +43,7 @@
                     <option value="other">Other</option>
                 </select>
             </div>
-            <button type="submit" id="submit" class="btn btn-primary">Register</button><a href="<?php echo base_url('Login/index'); ?>" id="login">Login</a>
+            <button type="submit" id="submit" class="btn btn-primary">Submit</button>
         </form>
     </div>
 
@@ -57,17 +58,16 @@
 		var dataString = $("#submitdata :input").serializeArray();
 		$.ajax({
 			type: "POST",
-			url: '<?php echo site_url('Registration/save'); ?>',
+			url: '<?php echo site_url('Registration/edit'); ?>',
 			data: dataString,
 			dataType:"json",
 			success: function(response){
                 if (response.status === 'success') {
                         alert(response.message); 
-                        window.location.href = response;
                     } else {
                         alert(response.message); 
                     }
-                },
+            },
                 error: function(xhr, status, error) {
                     console.error(error);
                 }
